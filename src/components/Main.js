@@ -68,7 +68,8 @@ export const Main = () => {
                         <TrackVisibility>
                             {({ isVisible }) => 
                             <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                                <img src={falcon} alt="header_img" className="falcon"/>    
+                                <img src={falcon} className="falcon"/>
+                                   
                             </div>}
                         </TrackVisibility>
                     </Col>

@@ -1,4 +1,19 @@
-
+/* Custom Font */
+@font-face {
+	font-family: Inter;
+	src: url('./assets/font/Inter_28pt-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Inter;
+	src: url('./assets/font/Inter_28pt-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Inter;
+	src: url('./assets/font/Inter_28pt-Light.ttf');
+	font-weight: 400;
+}
 
 
 @keyframes Selection {
@@ -36,7 +51,7 @@ body {
   font-family: 'Centra', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, owl-carousel owl-theme, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -292,7 +307,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 border-right: 0.08em solid var(--sec-text);
 }
 
-.banner img{
+.falcon{
   animation: updown 4.5s ease-in-out infinite;
   scale: 205%;
   overflow: hidden;
@@ -491,4 +506,64 @@ border-radius: 0 55px 55px 0;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+}
+
+.design-box{
+  width: 100%;
+}
+
+.des-item {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.des-item::before{
+  border-radius: 30px;
+  transition: .4s ease-in-out;
+}
+
+.des-slider{
+  margin: 0 auto;
+}
+
+.design-card h5 {
+  background-color: transparent;
+  border-radius: 0;
+  color: var(--white);
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  font-weight: 400;
+}
+
+/* Footer */
+.footer {
+  padding: 0 0 50px 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer .logo {
+  width: 26%;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+.footer .social-icon{
+  display: inline;
+}
+
+@media (width < 767px) {
+  .footer{
+    text-align: center;
+  }
 }
