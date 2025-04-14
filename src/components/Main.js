@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import falcon from '../assets/falcon.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 
 
@@ -60,7 +61,10 @@ export const Main = () => {
                                 <span className="tagline"> Welcome to my Portfolio! </span>
                                 <h1> {`Hi!, I'm Agus`} <br/> 
                                     <span className="txt-rotate" dataPeriod="1000" data-rotate='["Web Developer", "Web Designer", "UX/UI Designer", "Graphic Designer"]'><span className="wrap">{text}</span></span></h1>
-                                <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas dui ac lorem gravida, eleifend rhoncus purus iaculis. Proin a rutrum mauris. Suspendisse accumsan nisi ut sem sodales, a viverra ante fringilla. Vivamus quis elementum ipsum, ac luctus erat. Praesent faucibus augue purus, id finibus lorem convallis vel. Sed lobortis velit ac nibh porta, eget pretium mi ultricies. Donec et elit mollis, accumsan justo id, tempor metus. Quisque nec diam a tortor pulvinar vehicula at eget justo. Integer id est eu dui dignissim tincidunt sed nec metus. In hac habitasse platea dictumst. In laoreet erat augue, sed ullamcorper ipsum venenatis sed. Etiam nec augue libero.  </p>
+                                <p> based in Argentina, currently on my fourth year of System Engineering in "Universidad Tecnologica Nacional". Looking for new experiences and new ways to connect with others.I'm a Full-Stack Developer with experience in React, MySQL, PHP, and other programming languages. and also do graphic design, UX/UI design using programs like Figma, Photoshop, Blender. </p>
+                                <a target="_blank" href="https://instagram.com/starboyagus">
+                                <button onClick={() => console.log('connect')}> Let’s Connect <ArrowRightCircle size={25} /></button>
+                                </a>
                             </div>}
                         </TrackVisibility>
                     </Col>

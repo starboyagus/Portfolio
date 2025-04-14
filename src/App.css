@@ -61,7 +61,7 @@ p, a, li, button, ul {
   margin: 0;
   padding: 0;
   line-height: normal;
-  text-decoration: none;
+  text-decoration: none !important;
   
 }
 
@@ -261,7 +261,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner {
   margin-top: 0;
-  padding: 160px 0 50px 0;
+  padding: 160px 0 120px 0;
   
   background-image: url('./assets/moon_space.png');
   background-position: top center;
@@ -313,6 +313,30 @@ border-right: 0.08em solid var(--sec-text);
   overflow: hidden;
 }
 
+.banner button {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border-color: var(--white);
+  padding: 5px 10px 5px 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+
 /* Skills */
 
 .skill {
@@ -348,7 +372,7 @@ border-right: 0.08em solid var(--sec-text);
 
 .skill-slider{
   width: 90%;
-  margin: 0 auto;
+  margin: 30px auto;
   position: relative;
 }
 
@@ -386,6 +410,7 @@ border-right: 0.08em solid var(--sec-text);
   letter-spacing: 1px;
   line-height: 1.5rem;
   margin: 14px 0 17px 0;
+  text-align: center;
 }
 
 .projects .nav.nav-pills {
@@ -488,7 +513,7 @@ border-radius: 0 55px 55px 0;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
-  line-height: 1.1rem;
+  line-height: 2rem;
 }
 
 .proj-txtx span{
@@ -565,5 +590,13 @@ border-radius: 0 55px 55px 0;
 @media (width < 767px) {
   .footer{
     text-align: center;
+  }
+
+  .skill p {
+    display: none;
+  }
+  
+  .projects p{
+    display: none;
   }
 }

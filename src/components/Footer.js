@@ -20,6 +20,7 @@ export const Footer = () => {
                     <a target="_blank"  href="#"><img src={linkedin} alt="" /></a>
                 </div>
             <p>© 2024. All Rights Reserved</p>
+            <p>inspired by webdecoded</p>
           </Col>
         </Row>
       </Container>

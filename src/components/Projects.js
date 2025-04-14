@@ -20,17 +20,22 @@ export const Projects = () => {
                             {( { isVisible } ) => 
                                 <div className={isVisible ? "animate__animated" : ""}>
                                     <h2>Projects</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>I’ve worked on a variety of projects that blend both web development and graphic design. In web development, I’ve built responsive websites and landing pages using HTML, CSS, JavaScript, and React
+                                    <br/>
+                                    On the graphic design side, I’ve created from brand identities to social media content.
+                                    <br/>
+                                    Each project has helped me grow creatively and technically — allowing me to approach problems from both a designer’s and a developer’s perspective.
+                                    </p>
                                     <Tab.Container id='projects-tabs' defaultActiveKey="first">
                                         <Nav variant='pills' className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="first">Developer Projects</Nav.Link>
+                                                <Nav.Link eventKey="first">Developer</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="second">Design Projects</Nav.Link>
+                                                <Nav.Link eventKey="second">Design</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="third">Coming Soon...</Nav.Link>
+                                                <Nav.Link eventKey="third">Soon...</Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                         <Tab.Content id='slideInUp' className={isVisible ? "animate__animated animate__slideUp" : ""}>
@@ -63,7 +68,6 @@ export const Projects = () => {
                                                 </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Tab.Container>

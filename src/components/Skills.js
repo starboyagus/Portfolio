@@ -2,8 +2,12 @@ import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from '../assets/arrow1.svg'
 import arrow2 from '../assets/arrow2.svg'
-import meter from '../assets/meter1.svg'
 import colorSharp from '../assets/color-sharp.png'
+
+import wdmeter from '../assets/wd_meter.png'
+import appdmeter from '../assets/appd_meter.png'
+import desmeter from '../assets/des_meter.png'
+import gdmeter from '../assets/gd_meter.png'
 
 export const Skills = () => {
     const responsive = {
@@ -30,25 +34,32 @@ export const Skills = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col-12'>
-                        <div className='skill-bx wow zoomIn'>
+                        <div className='skill-bx zoomIn'>
                             <h2>Skills</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p>I have a balanced skill set that combines both creative and technical strengths. I'm experienced with tools like Figma, Photoshop, and Illustrator, and I enjoy crafting clean, modern, and intuitive interfaces.
+                            <br />
+                            On the development side, I primarily focus on front-end technologies. While I’m still growing in this area, I enjoy turning design concepts into interactive, responsive websites and applications.
+                            </p>
                             <Carousel responsive={responsive} infinite={true} className='owl-carousel owl-theme skill-slider'>
                                 <div className='item'>
-                                    <img src={meter} alt='image1'/>
+                                    <img src={wdmeter} alt='image1'/>
                                     <h5> web development </h5>
                                 </div>
                                 <div className='item'>
-                                    <img src={meter} alt='image1'/>
+                                    <img src={desmeter} alt='image1'/>
                                     <h5> web design </h5>
                                 </div>
                                 <div className='item'>
-                                    <img src={meter} alt='image1'/>
-                                    <h5> ux/ui design </h5>
+                                    <img src={desmeter} alt='image1'/>
+                                    <h5> UX/UI design </h5>
                                 </div>
                                 <div className='item'>
-                                    <img src={meter} alt='image1'/>
+                                    <img src={gdmeter} alt='image1'/>
                                     <h5> graphic design </h5>
+                                </div>
+                                <div className='item'>
+                                    <img src={appdmeter} alt='image1'/>
+                                    <h5> app development </h5>
                                 </div>
                             </Carousel>
                         </div>
