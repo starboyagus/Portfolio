@@ -64,7 +64,7 @@ export const Header = () => {
                         <div className="social-icon">
                             <a target="_blank"  href="https://github.com/starboyagus"><img src={github} alt="" /></a>
                             <a target="_blank"  href="https://www.instagram.com/starboyagus/"><img src={instagram} alt="" /></a>
-                            <a target="_blank"  href="#"><img src={linkedin} alt="" /></a>
+                            <a target="_blank"  href="https://www.linkedin.com/in/agus-gil-72626b360/"><img src={linkedin} alt="" /></a>
                         </div>
                     </span>
                 </Navbar.Collapse>

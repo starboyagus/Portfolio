@@ -62,7 +62,7 @@ export const Main = () => {
                                 <h1> {`Hi!, I'm Agus`} <br/> 
                                     <span className="txt-rotate" dataPeriod="1000" data-rotate='["Web Developer", "Web Designer", "UX/UI Designer", "Graphic Designer"]'><span className="wrap">{text}</span></span></h1>
                                 <p> based in Argentina, currently on my fourth year of System Engineering in "Universidad Tecnologica Nacional". Looking for new experiences and new ways to connect with others.I'm a Full-Stack Developer with experience in React, MySQL, PHP, and other programming languages. and also do graphic design, UX/UI design using programs like Figma, Photoshop, Blender. </p>
-                                <a target="_blank" href="https://instagram.com/starboyagus">
+                                <a target="_blank" href="https://www.linkedin.com/in/agus-gil-72626b360/">
                                 <button onClick={() => console.log('connect')}> Let’s Connect <ArrowRightCircle size={25} /></button>
                                 </a>
                             </div>}
