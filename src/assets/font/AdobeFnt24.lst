@@ -1,0 +1,75 @@
+%!Adobe-FontList 1.24
+%Locale:0xc0a
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Inter28pt-Bold
+FamilyName:Inter 28pt
+StyleName:Bold
+FullName:Inter 28pt Bold
+MenuName:Inter 28pt
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\ag\ghub\Portfolio\portfolio\src\assets\Font\Inter_28pt-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:343972
+FileModTime:1725491480
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Inter 28pt
+NameArray:0,Win,16,Inter 28pt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Inter28pt-Light
+FamilyName:Inter 28pt
+StyleName:Light
+FullName:Inter 28pt Light
+MenuName:Inter 28pt Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\ag\ghub\Portfolio\portfolio\src\assets\Font\Inter_28pt-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:343092
+FileModTime:1725491480
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Inter 28pt Light
+NameArray:0,Win,16,Inter 28pt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Inter28pt-Medium
+FamilyName:Inter 28pt
+StyleName:Medium
+FullName:Inter 28pt Medium
+MenuName:Inter 28pt Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\ag\ghub\Portfolio\portfolio\src\assets\Font\Inter_28pt-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:342808
+FileModTime:1725491480
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Inter 28pt Medium
+NameArray:0,Win,16,Inter 28pt
+%EndFont
+
